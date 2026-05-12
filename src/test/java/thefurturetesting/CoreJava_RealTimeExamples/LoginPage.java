@@ -25,9 +25,9 @@ public class LoginPage {
     WebDriver driver;
 
 
-    By userName = By.id("user");
-    By password = By.id("pass");
-    By loginButton = By.id("login");
+    By userName = By.name("username");
+    By password = By.name("password");
+    By loginButton = By.xpath("//button[normalize-space()='Login']");
 
     public LoginPage(WebDriver driver){
 
