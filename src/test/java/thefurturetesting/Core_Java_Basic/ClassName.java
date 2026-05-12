@@ -4,7 +4,14 @@ public class ClassName {
 
 //    Class is a blueprint or template.
 
+/*
+ In Java, Contains
+ Variables
+ Methods
+ Constructors
 
+
+ */
     String name ="Sekhar";
     int sal =89000;
 
